@@ -1,10 +1,8 @@
 import React from 'react'
 
-function Button() {
+function Button({styles}) {
   return (
-    <div>
-      Button
-    </div>
+    <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins text-primary font-medium text-[18px] outline-none ${styles} rounded-[8px]`}>Get Started</button>
   )
 }
 
